@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polling Website</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR0AAACxCAMAAADOHZloAAAAhFBMVEUAAAD+/v7t7e3////s7Oz39/fy8vL6+vr09PT4+PhoaGhhYWGysrK+vr5lZWXf399ZWVmWlpagoKDU1NTKyspTU1Pb29vm5ubCwsK4uLiPj4/W1tadnZ3MzMwtLS1NTU18fHwVFRVFRUUZGRkpKSmCgoINDQ2rq6tycnI+Pj4gICA3Nzc3r9qVAAAKN0lEQVR4nO1d62LbKgw2xja4aZO2aZvetnXb2aXr+7/fsS05ARvwBfClQb+qKP1CvoCQEOCIkkIoSeJSOGi8UhJSaWjKwJSCiYEWg4DC4I05aBm8cdXwcVRBELAlNT5oYGrgg4mRFn6NkZJW89cKr2EntsFv/7hrhQ/sBHbGsyP6NcPITRr4gl9LJL92xE9OzV8rfBwxkKwSDgoHTTaRSklFEwElA1MOSgomLprWCh8llWS0khw0BlpcKTEoDEwpaBlooBBQOGgcNALauuGj2GbYS71X7tiIYeVV5oYn7tiJ/TZ/DvjATmDHgh3Rr6UD/RoZ5jYL+PKzER5jCvSNoCA8V5h6wTtufZTyUlIU3tYMJj7YlJZtxl8V2iFrsUo7KVne/5NdtD7qnNaI1e/ThL+IbGTDh07KVq2fOpOwZGfLP3WeFdgJ7JwLO51+zW7WdOuVt4O9sl3rIy6mt6mYqMrJbq43ySkyYuRKE9tasXNBzfCuWw+xsmb9o9SMyyvQQ9XLK6A1llf4xpIdM7zr1k+cSThj51PmWYGdwM7Y5alx7Pz2z45m9Uua8bwvbY5i5/6rxI4B3nXr62gQiOZAOy4gILdi7yJQa42l3wdNiJET4feJJdO4eOfm7fjnlsepAd556/tWipuzZrv3NmdN6L32sfLV6+nvfrGys9YvPpP4eHgUtJBnSXIRP4hqYEeUG558zMrOyJFLW/iGUu5Idn4/8sYcJ7CjhHfc+lg1ZxH0+jjpSybJ6xOgOAMlB1MqmuIG/BB2fiQ8fZZf2qZmeMetn7pSPCDe+Vv8qo+N1yaPd2KLcekzVr5N42zXfHHyWNkZO07zrJ9fivFx+G86dtaUhd4fig/g963XAzuFPJfeM/3VNkzPDvo1xEe/Bvjo1yrl6NcAv3ZepXL0a4h/MpGj2xzCzlU5ofI/CovolVXwrlsfQWWU55XUdVLQ0MT0plzUUgkDFNaA77Gu/HVHC8D8RWUr15VN8K5bv7iaxCbJSnj2XWWcuCYxXybxW/Xty9yhgqfflNazybO+vaq+/h2H/1J45LNiJ3qjz80v/57Bhyk98nmxE/2h8V/pu79RgM/uNOScVaX4C6W765N6ifDxTuOTZvDK+omPdZtyxQypnHJrDHlGP6Qpe3yHv7/vGcAz9kNHjnZG99X6WaPBj6Ts80//Iswd4Kd705IzfTQY23gVaWyPyCQueLV18jZ6xkMLBTs6j3xkxwDvuPVz51nPvIAvBv1pae6LgZxzYyd64tC9EZ4lWo98juxELyJ8zPUeeRZ2pBlvhpXTr+wEH/OONGwJleJpV903PKvhC/dslolX3ZdQsfmVIjzVxshHdmaq2MyQSRzlklfw9NBFzjnlWSfZZwU8ZR8qW2Dn+6Fkp0chcBnsdI/cNr7NDpVvGac33eTMtkMFNNnrIz4o6Nq79wfJXl8y6VdO31plTw07uP1IDe+89bPHOyh9ek6oFPdgxwDvuPXzZxILYWfaPCvGvlnDV+KEnVgJvyJ2skzNzsgduX3YKfjxxo7bcxiZso4ZRXfMATtMszp2KMl30XowgdZ9AokPPcOTasgp2HFwAok9aWw76qT1ksl9TYJo06Wn3MHpNXKlM+6Zg9Y3Tq8RcVw6iMWzB13royu/7EQPi8+z+F7/3XyzUwyuZbPDTYvm3tmp6FkuO0ZyfPsdpMfyRj2ZHZdeWUfO6+1NIc/71AE7bPd6W8hNa4sCyIOXSrGLq0CIxufcUvix8pQTyxmdFJ8GN3Pp1qBfmOVFJqLm8IYZppmtNtxpJnH8ZA3UHR3Ves85um5Y/TuIWei1+k09ZSNkoTRVbp4r4p72mvrseRbXFRTuMhH+Yb/f7w6VvOwrAWUHyoNk2jVMu0TM0akueKgKiItih+vW9qqNgBK8fHcTDjpcw8uxf+Mn4xippBoVUvOpcnMd9p4lsaMl55q76ZrK5tP2bvgjPQuqFGvJ+ZlkQgfBtVvDvV+GvoNuE5eGwW2mmo8t6HFUKZYSVSLeY8kUJuVdmPoi5iW08bCr5JC0NVR2ClPSaTroEvboMe3detNNntChbO5RjVNjhDyTXFHaq/XmW2CJOC5HZRLcGNvPJne0V+s951kLJaemZ152uHbozy4VPR7Y6Z/lLpicwjXTeXP0RZNT0jM0R8/FOd+2Utyr+j2jXGam1nfHO7FFz0uoXVLpX+55z1jZR6VYt4qwGLnuy46PPCuwE9gxVIrNO0rtFkL9C7JjqBSr/U5dKdbf1ChnaUxVa11+38mZvvWqSrFssot3LBdC/cvGKt6xrBSvgR0Lv2qZZwV2xrDz4+JiA3IBAsoWlG2naSuaNp2mi832fUXs3BZDHMpmFB1UJejImMKEroAoTKmkodKAZ5oFeFt2Or2y6VZ9Azu+Dv3KbrOGzzQ7egd75Ual2KqSSjQz+itxUqg1mBpv1PYdYnisRCe8ZaVYFw3eZBM9LOQIr6mqX3MreD+ZxA2fZkPxEd7AjgW8pzwrsBPYOXt2rNymZ69cz9eevHI3fDQwh5Wft8B0MzpVYlg9jMK4ITvXxjtW8MZKcWet1RgNwtizge/ezF/DG6JBC3h/mcQkBzeP8NzMzuLyrMDOmbLTXnd1yk5f+PnZGTBrtiflz5ejN1ZOY4Hb+qoMJbegyNzqo0Hlqeah8Ni7QJGGZRNeG++kNvCaWJl29jycUHXRoDlW7gsvjj3zkeWBsXJP+JBJhDwrsOORndF3D+mzULH5Y+HF5hv8jjkLtYGPpOudcKu0dBMHmuRbNOrt1l1zlvKSjt7wkslwb1WmPY90nVrBh3hn+krx584kAjuBncCObRZaafprdE+VYsRHv9bJDrpNG/juS4Br+G6vPAY+jgyPYjDczoxv1K4rE9N/9Ybvb9LvMrCCX3SleEA44KkmEVsN+7PIJAI7gZ3Ajmt2glc2eGUmTmFppRme2VCb8I36GV1+nMNI+J6mAp5p4x0r+BANGqNBIo7LkEmEPCuw45Od9rprqBSHlVNdpRh+R9WyuLw47XzV3QRPRAxfq+4meE8VGzlWXm/FJrYYl2eQSQR2Ajsu2Wk7hvPeoQKa6hlBje1Hsqnv7qZx8Nh8UFSTyhF+2JzVFz5UikdUij3HynFPeNPYk+HXlmfhkg7F7lKJw3OhDXhf50K9sPNenwDebEEkzcqkeeOazhQvRlxVilV+h57YGXaKZDFie4qkx/Ge4SeQFiPGE0jdj9Lwc3ptMbLISvFiZJF51mIksGOSwI5JFlkpXozY3vRgd0uI7urwpcg96fxipq9pd8NM9nhZyhVI9fflEyhPl65MNhh7yxtmiDguByfREDQhwxBPYaesb5XDT4PwEtuoMGGrmMJkBT/37dMdfnvN8IEdr7dPj2r+WuDdPiGqEvXS5jrh65s8pect5KBl6Acrpb7oo/OJE5KJrBve7hZYsfeq71HtWl5ZNvzEzyleF/zUT3FeF3xgZyJ2ej0ffV3wjRzd/dPpk1XDh3jHBP8/MLcO4a31sZAAAAAASUVORK5CYII="
+                alt="Polling Website.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#head">Home</a></li>
+            <li class="item"><a href="#poll">Create Poll</a></li>
+            <li class="item"><a href="#aboutSection">About Us</a></li>
+            <li class="item"><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="head">
+
+        <h1>Welcome to polling website</h1>
+
+    </section>
+
+
+    <section id="poll">
+        <h1>Create Poll</h1>
+    </section>
+    <div id="actualDiv">
+        <section id="actual">
+            <section class="elements">
+                <div class="option">
+                    Enter your question:
+                    <input class="hi" type="text" placeholder="enter question" name="username">
+                </div>
+                <br>
+
+
+                <div class="option">
+                    Enter first option:
+                    <input class="hi" type="text" placeholder="enter 1st option" name="username">
+                </div>
+                <br>
+
+
+                <div class="option">
+                    Enter second option:  
+                    <input class="hi" type="text" placeholder="enter 2nd option" name="username">
+                </div>
+                <br>
+
+
+                <div class="option">
+                    Enter third option:
+                    <input class="hi" type="text" placeholder="enter 3rd option" name="username">
+                </div>
+                <br>
+
+
+                <div class="option">
+                    Enter forth option:
+                    <input class="hi" type="text" placeholder="enter 4th option" name="username">
+                </div>
+                <br>
+
+                <div class="option">
+                    Enter fifth option:
+                    <input class="hi" type="text" placeholder="enter 5th option" name="username">
+                </div>
+                <br>
+            </section>
+            <div style="align-items: center; width: 6rem; margin: 0rem 20rem 0rem 32rem;">
+                <button class="btn" style="width: 100%;">Create</button>
+            </div>
+        </section>
+    </div>
+
+    <section id="aboutSection">
+        <h1> About Us </h1>
+    </section>
+
+    <section>
+        <div id="aboutus">
+            <div class="abtcon">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus, totam error, deleniti
+                sapiente quis explicabo exercitationem iure esse porro inventore. Quas doloremque quidem voluptatibus
+                nostrum nemo laborum cumque molestiae.
+            </div>
+            <div class="abtcon">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus, totam error, deleniti
+                sapiente quis explicabo exercitationem iure esse porro inventore. Quas doloremque quidem voluptatibus
+                nostrum nemo laborum cumque molestiae.
+            </div>
+            <div class="abtcon">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus, totam error, deleniti
+                sapiente quis explicabo exercitationem iure esse porro inventore. Quas doloremque quidem voluptatibus
+                nostrum nemo laborum cumque molestiae.
+            </div>
+        </div>
+    </section>
+
+    <section id="contactus">
+        <h1> Contact Us </h1>
+    </section>
+
+    <section>
+        <div id="contus">
+            <div class="cont1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus, totam error, deleniti
+                sapiente quis explicabo exercitationem iure esse porro inventore. Quas doloremque quidem voluptatibus
+                nostrum nemo laborum cumque molestiae.
+            </div>
+            <div class="cont2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus, totam error, deleniti
+                sapiente quis explicabo exercitationem iure esse porro inventore. Quas doloremque quidem voluptatibus
+                nostrum nemo laborum cumque molestiae.
+            </div>
+        </div>
+    </section>
+
+    <section id="opinion">
+        MAKE A POLE TAKE EVERYONE'S OPINION
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.polemyquestion.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

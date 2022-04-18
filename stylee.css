@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo {
+    margin: 40px 34px;
+}
+
+#logo img {
+    height: 60px;
+    margin: 3px 6px;
+}
+
+ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(234, 231, 235);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+ul li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(245, 252, 249);
+    height: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+#head::before {
+    content: "";
+    position: absolute;
+    background: url('https://image.shutterstock.com/image-photo/beautiful-texture-decorative-venetian-stucco-260nw-1193660509.jpg') no-repeat center center/cover;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#poll h1 {
+    color: rgb(235, 26, 26);
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'Baloo 2', cursive;
+}
+
+#actualDiv {
+    background: url('https://cdn2.vectorstock.com/i/1000x1000/77/16/election-signs-seamless-pattern-background-vector-21497716.jpg') no-repeat center center/cover;
+    padding: 20px 0;
+}
+
+#actual {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    color: rgb(0, 0, 0);
+    border: 10px solid brown;
+    border-radius: 30px;
+    margin: 60px;
+    padding: 10px 60px;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+.elements {
+    width: 3000px;
+    padding: 10px;
+}
+
+.option {
+    padding: 5px 60px;
+    size: 73px;
+    width: 100%;
+}
+
+.hi {
+    width: 700px;
+    height: 30px;
+    padding: 5px;
+}
+
+#actual.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+
+}
+
+#about {
+    display: flex;
+}
+
+
+#aboutSection {
+    display: flex;
+    background: transparent;
+}
+
+#aboutSection h1 {
+    color: rgb(235, 26, 26);
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'Baloo 2', cursive;
+}
+
+#aboutus{
+    display: flex;
+    flex-direction: row;
+}
+
+.abtcon {
+    border: 5px solid brown;
+    padding: 34px;
+    width: 33%;
+    margin: 25px;
+    flex-direction: row;
+    border-radius: 28px;
+    background: #f2f2f2;
+
+}
+
+#contactus h1 {
+    color: rgb(235, 26, 26);
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'Baloo 2', cursive;
+}
+
+#contus {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont1{
+    border: 5px solid brown;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: white;
+}
+
+.cont2{
+    border: 5px solid brown;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(33, 6, 117);
+}
+
+#opinion{
+    color: brown;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+}
